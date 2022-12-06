@@ -6,7 +6,7 @@ import torch
 def init():
     global model
 
-    model = gal.load_model("standard",num_gpus=1)
+    model = gal.load_model("large")
 
 
 # Inference is ran for every server call
